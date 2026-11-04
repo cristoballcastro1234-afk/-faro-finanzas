@@ -2,13 +2,14 @@
   "id": "./index.html",
   "name": "Faro - Mi dinero bajo control",
   "short_name": "Faro",
-  "description": "Administra deudas, ingresos, gastos, cuotas y presupuestos. Uso local sin sincronización bancaria.",
+  "description": "Administra gastos, ingresos y deudas en pesos chilenos sin conexión bancaria.",
   "lang": "es-CL",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#07131e",
   "theme_color": "#0a1723",
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "./icon-192.png",
@@ -17,10 +18,10 @@
       "purpose": "any"
     },
     {
-      "src": "./icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
