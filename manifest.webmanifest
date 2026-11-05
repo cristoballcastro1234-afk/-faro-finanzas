@@ -5,7 +5,7 @@
   "description": "Administra gastos, ingresos y deudas en pesos chilenos sin conexión bancaria.",
   "lang": "es-CL",
   "start_url": "./index.html",
-  "scope": "./",
+  "scope": "./index.html",
   "display": "standalone",
   "background_color": "#07131e",
   "theme_color": "#0a1723",
